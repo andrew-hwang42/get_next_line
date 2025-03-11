@@ -6,10 +6,9 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/04 06:42:04 by ahwang            #+#    #+#             */
-/*   Updated: 2025/03/04 08:03:09 by ahwang           ###   ########.fr       */
+/*   Updated: 2025/03/11 23:05:40 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "get_next_line.h"
 
@@ -61,7 +60,7 @@ char	*merge(char *save, char *buffer)
 
 	save = check_save(save);
 	new_str = malloc(sizeof(char)
-				* (ft_strlen(save) + ft_strlen(buffer) + 1));
+			* (ft_strlen(save) + ft_strlen(buffer) + 1));
 	if (!new_str || !buffer)
 		return (NULL);
 	i = 0;

@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/04 06:42:19 by ahwang            #+#    #+#             */
-/*   Updated: 2025/03/04 08:06:15 by ahwang           ###   ########.fr       */
+/*   Updated: 2025/03/11 23:08:04 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ char	*merge(char *save, char *buffer)
 
 	save = check_save(save);
 	new_str = malloc(sizeof(char)
-				* (ft_strlen(save) + ft_strlen(buffer) + 1));
+			* (ft_strlen(save) + ft_strlen(buffer) + 1));
 	if (!new_str || !buffer)
 		return (NULL);
 	i = 0;

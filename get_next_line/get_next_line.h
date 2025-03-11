@@ -6,10 +6,9 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/04 06:42:09 by ahwang            #+#    #+#             */
-/*   Updated: 2025/03/04 08:03:18 by ahwang           ###   ########.fr       */
+/*   Updated: 2025/03/11 23:17:39 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
@@ -29,7 +28,7 @@ char	*get_next_line(int fd);
 
 /* get_next_line_utils.c */
 size_t	ft_strlen(char *s);
-int	find_newline(char *s);
+int		find_newline(char *s);
 char	*check_save(char *save);
 char	*merge(char *save, char *buffer);
 
